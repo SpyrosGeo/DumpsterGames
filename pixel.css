@@ -3,7 +3,7 @@ body {
   background: url(imgs/jump.jpg);
   background-size: auto;
   background-repeat: no-repeat;
-  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Amatic SC', cursive; */
  /* color:white; */
 }
 .bg-custom {
@@ -44,10 +44,12 @@ body {
   color : rgb(61, 145, 79);
 }
 .card h5 {
+  font-family: 'Amatic SC', cursive;
   font-size: 3.0rem;
 }
 
 .card .card-text {
+  font-family: 'Amatic SC', cursive;
   font-size:1.51rem;
 }
 
