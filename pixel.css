@@ -10,8 +10,11 @@ body {
 }
 .jumbotron {
   background: rgba(74, 82, 94,0.35);
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
   color: white;
   letter-spacing: 2.3rem
+
 
 }
 /* h1 {
