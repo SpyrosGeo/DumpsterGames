@@ -12,12 +12,12 @@ body {
 }
 
 .jumbotron {
-  /* background: rgba(77, 82, 94, 0.09); */
-  background: url(imgs/bk.png);
+  background: rgba(77, 82, 94, 0.09);
+  /* background: url(imgs/bk.png);
   background-size:auto;
   background-repeat: no-repeat;
   background-position: center;
-  filter:grayscale(88%);
+  filter:grayscale(88%); */
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   color: white;
