@@ -11,26 +11,28 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="pixel.css">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-md navbar-dark bg-custom fixed-top py-0">
-    <a class="navbar-brand" href="#">Dumpster Games <i class="fas fa-dumpster"></i> </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav id="mainNav" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
+    <a class="navbar-brand" href="#">Dumpster Games <i id="trash" class="fas fa-dumpster"></i></a>
+    <!-- koumbi gia to collapse -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navlinks">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
+        <li class="nav-item ">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="#">About</a>
+          <a class="nav-link" href="#">About us</a>
         </li>
-        <li class="nav-item dropdown">
+
+      </ul>
+    </div>
   </nav>
 
 
@@ -56,7 +58,7 @@
               <p class="card-text">Generic Shmup is game built for guys who want to die of Cancer! <span class="custom-span">Try it with now!</span>
               </p>
               <a href="rar/GenShmup.rar" class="btn btn-outline-success btn-sm">Download</a>
-              <a target="_blank" rel="noopener noreferrer" href="#" class="btn-outline-danger btn-sm">Try it Now!</a>
+              <a target="_blank" rel="noopener noreferrer" href="index.html" class="btn-outline-danger btn-sm">Try it Now!</a>
             </div>
           </div>
         </div>
@@ -120,6 +122,15 @@
     </div>
   </section>
   <!-- Optional JavaScript -->
+
+  <script>
+    $(function() {
+      $(document).scroll(function() {
+        var $nav = $("#mainNav");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

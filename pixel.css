@@ -3,22 +3,57 @@ body {
   background: url(imgs/jump.jpg);
   background-size: auto;
   background-repeat: no-repeat;
+  font-family: 'Amatic SC', cursive;
  /* color:white; */
 }
 .bg-custom {
   background-color:rgba(74, 82, 94,0.55);
 }
 .jumbotron {
-  background: rgba(74, 82, 94,0.35);
+  background: rgba(74, 82, 94,0.25);
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
   color: white;
   letter-spacing: 2.3rem
-
-
 }
-/* h1 {
+#mainNav {
+  /* background: url(imgs/back.jpg); */
+  font-size: 1.5rem;
   font-weight: 100;
-  letter-spacing: 0.6rem;
-  font-size: 4.5rem;
+}
+
+#mainNav .nav-link {
+  color: white;
+  letter-spacing: 0.2rem;
+}
+#mainNav .nav-link:hover {
+  color: rgb(67, 133, 239)
+}
+#mainNav .navbar-brand {
+  color: #f7f3ed;
+  letter-spacing: 0.3rem;
+  /* font-size: 1.5rem; */
+  /* font-weight:100; */
+}
+/* .navbar.scrolled {
+  background: rgba(211, 139, 38, 0.65);
+  transition: background 500ms;
 } */
+
+#trash {
+  color : rgb(61, 145, 79);
+}
+.card h5 {
+  font-size: 3.0rem;
+}
+
+.card .card-text {
+  font-size:1.51rem;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-weight: 100;
+    font-size: 2rem;
+  }
+}
