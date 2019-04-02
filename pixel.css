@@ -7,7 +7,7 @@ body {
  /* color:white; */
 }
 .bg-custom {
-  background-color:rgba(74, 82, 94,0.55);
+  background-color:rgba(74, 82, 94,0.95);
 }
 .jumbotron {
   background: rgba(74, 82, 94,0.25);
@@ -18,15 +18,18 @@ body {
 }
 #mainNav {
   /* background: url(imgs/back.jpg); */
+  font-family: 'Amatic SC', cursive;
   font-size: 1.5rem;
   font-weight: 100;
 }
 
 #mainNav .nav-link {
+  font-family: 'Amatic SC', cursive;
   color: white;
   letter-spacing: 0.2rem;
 }
 #mainNav .nav-link:hover {
+
   color: rgb(67, 133, 239)
 }
 #mainNav .navbar-brand {
@@ -35,10 +38,10 @@ body {
   /* font-size: 1.5rem; */
   /* font-weight:100; */
 }
-/* .navbar.scrolled {
+.navbar.scrolled {
   background: rgba(211, 139, 38, 0.65);
-  transition: background 500ms;
-} */
+  /* transition: background 500ms; */
+}
 
 #trash {
   color : rgb(61, 145, 79);
